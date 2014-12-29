@@ -1,0 +1,137 @@
+<!-- PRIVATE STYLESHEET FOR DEVELOPER -->
+<style>
+	
+	<!-- Color -------------------------------------------------------------------------------------------------->
+	<!-- id			color id																				   -->
+	<!-- value		color in uint format 																	   -->
+	<!----------------------------------------------------------------------------------------------------------->
+
+	<color 		id="generalWhite" 	value="0xaaaaaa"													/>
+	<color 		id="title" 			value="{color/main/title@0xFFFFFF}"									/>
+	<color 		id="titleDesc" 		value="{color/main/descriptionColor@0x112233}"						/>
+	<color 		id="listItemHl" 	value="0xFFFFFF"													/>
+	
+	
+	<!-- Size --------------------------------------------------------------------------------------------------->
+	<!-- id			size id																					   -->
+	<!-- value		size in number format 																	   -->
+	<!----------------------------------------------------------------------------------------------------------->
+
+	<size		id="h1"				value="30" 															/>
+	<size		id="h2"				value="20" 															/>
+	<size		id="p"				value="17" 															/>
+	
+	
+	<!-- Bitmap ------------------------------------------------------------------------------------------------->
+	<!-- id			bitmap id																				   -->
+	<!-- path		bitmap image path 																	   	   -->
+	<!-- cache		boolean to determine whether the bitmap should be cache for reuse purpose				   -->
+	<!----------------------------------------------------------------------------------------------------------->
+
+	<bitmap 	id="pane"  						path="images/pane/pane.png"   						init="true"		cache="true"		/>
+	
+	<bitmap 	id="back"  						path="images/indiIcon/back.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="red"  						path="images/indiIcon/red.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="blue"  						path="images/indiIcon/blue.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="green"  					path="images/indiIcon/green.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="yellow"  					path="images/indiIcon/yellow.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="tick"  						path="images/common/tick_selected.png"   			init="true"		cache="true"		/>
+
+	<!--<bitmap 	id="workgroupIsHL"  			path="images/fileIcon/workgroupHL.png"   			init="true"		cache="true"		/>
+	<bitmap 	id="workgroupNoHL"  			path="images/fileIcon/workgroup.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="computerIsHL"  				path="images/fileIcon/pcHL.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="computerNoHL"  				path="images/fileIcon/pc.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="nfsIsHL"  					path="images/fileIcon/nfsHL.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="nfsNoHL"  					path="images/fileIcon/nfs.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="networkIsHL"  				path="images/fileIcon/networkHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="networkNoHL"  				path="images/fileIcon/network.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="harddiskIsHL"  				path="images/fileIcon/harddiskHL.png"   			init="true"		cache="true"		/>
+	<bitmap 	id="harddiskNoHL"  				path="images/fileIcon/harddisk.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="usbIsHL"  					path="images/fileIcon/usbHL.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="usbNoHL"  					path="images/fileIcon/usb.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="folderIsHL"  				path="images/fileIcon/folderHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="folderNoHL"  				path="images/fileIcon/folder.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="musicIsHL"  				path="images/fileIcon/musicHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="musicNoHL"  				path="images/fileIcon/music.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="videoIsHL"  				path="images/fileIcon/movieHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="videoNoHL"  				path="images/fileIcon/movie.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="photoIsHL"  				path="images/fileIcon/photoHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="photoNoHL"  				path="images/fileIcon/photo.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="otherNoHL"  				path="images/fileIcon/file.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="otherIsHL"  				path="images/fileIcon/fileHL.png"   				init="true"		cache="true"		/>-->
+	
+	<bitmap 	id="warning"  					path="images/common/caution_icon.png"   			init="true"		cache="true"		/>
+	<bitmap 	id="sourceHL"  					path="images/highlight/sourceHL.png"   				init="false"	cache="false"		/>
+	<bitmap 	id="storageHL"  				path="images/highlight/storageHL.png"   			init="false"	cache="false"		/>
+	
+	<bitmap 	id="sliderTick"  				path="images/slider/scrollbar_indicator.png"   		init="true"		cache="true"		/>
+	<bitmap 	id="sliderTrack"  				path="images/slider/scrollbar_line.png"   			init="true"		cache="true"		/>
+
+	<!-- MovieClip ---------------------------------------------------------------------------------------------->
+	<!-- id			movieclip id																			   -->
+	<!-- path		movieclip target path 																	   -->
+	<!-- init		boolean to determine whether the movieclip should be construct automatically upon loaded   -->
+	<!-- bitmap		assign bitmap to the movieclip     														   -->
+	<!-- prop		only valid properties for movieclip can be assign, example: _x, _alpha...				   -->
+	<!----------------------------------------------------------------------------------------------------------->
+
+	<movieClip  id="main" 						path="main_mc" 								init="true" 	/>
+	<movieClip  id="dark" 						path="main_mc.dark"							init="true" 	/>
+	<movieClip  id="container" 					path="main_mc.pane"							init="true" 	/>
+	<movieClip  id="pane" 						path="main_mc.pane.bg"						bitmap="pane" init="true" 	/>
+	
+	<movieClip  id="indi" 						path="main_mc.pane.indi"					init="true" 	/>
+	<movieClip  id="line" 						path="main_mc.pane.line"					init="true" _y="110" _x="28" 						/>
+	
+	<movieClip  id="storageListContainer" 		path="main_mc.pane.main.storage"			init="true" _x="327" _y="120" 						/>
+	<movieClip  id="storageHLCon" 				path="main_mc.pane.main.storage.hl"			init="true"	_visible="false" _x="-25" _y="-21" 		/>
+	<movieClip  id="storageHL" 					path="main_mc.pane.main.storage.hl.pane"	init="true" bitmap="storageHL"						/>
+	<movieClip  id="storageList" 				path="main_mc.pane.main.storage.con"		init="true"  										/>
+	
+	<movieClip  id="sourceListContainer" 		path="main_mc.pane.main.source"				init="true" _x="41" _y="120" 						/>
+	<movieClip  id="sourceHLCon" 				path="main_mc.pane.main.source.hl"			init="true"	_visible="false"	_x="-27" _y="-21" 	/>
+	<movieClip  id="sourceHL" 					path="main_mc.pane.main.source.hl.pane"		init="true" bitmap="sourceHL"						/>
+	<movieClip  id="sourceList" 				path="main_mc.pane.main.source.con"			init="true"  										/>
+	
+	<movieClip  id="title" 						path="main_mc.pane.title"					init="true" _y="30"									/>
+	<movieClip  id="error" 						path="main_mc.pane.error"					init="true" _y="450" _visible="false"				/>
+	<movieClip  id="errorIcon"					path="main_mc.pane.error.icon"				init="true" bitmap="warning" _x="36" 				/>
+	<movieClip  id="errorKeyIcon"				path="main_mc.pane.error.keyIcon"			init="true"  _x="0" 				/>
+	
+	<movieClip  id="slider"						path="main_mc.pane.slider"					init="true" 										/>
+	<movieClip  id="storageSlider"				path="main_mc.pane.slider.storage"			init="true" _x="792" _y="116"						/>
+	<movieClip  id="storageSliderTrack"			path="main_mc.pane.slider.storage.track"	init="true"  bitmap="sliderTrack"					/>
+	<movieClip  id="storageSliderTick"			path="main_mc.pane.slider.storage.tick"		init="true"  bitmap="sliderTick"	_x="1"			/>
+	
+	<movieClip  id="preloader"					path="main_mc.pane.preloader"				init="true" 		/>
+		
+	
+	<!-- TextField -------------------------------------------------------------------------------------------------->
+	<!-- id				textField id																			   -->
+	<!-- path			textField target path 																	   -->
+	<!-- init			boolean to determine whether the textField should be construct automatically upon loaded   -->
+	<!-- prop			only valid properties for textField can be assign, example: _x, multiline...			   -->
+	<!-- translation	syabas style translations path			   												   -->
+	<!--------------------------------------------------------------------------------------------------------------->
+
+	<textField 	id="titleTf" 		path="main_mc.pane.title.txt"	  	init="true" textFormat="title" 	text="" _height="45" translation="main.title" />
+	<textField 	id="titleDescTf" 	path="main_mc.pane.title.descTxt"  	init="true" _y="40" text="" 	textFormat="titleDescription" _height="45" />
+	<textField 	id="errorMsg"	 	path="main_mc.pane.error.txt"  		init="true" _x="80" _y="1"	text="" 	textFormat="error" autoSize="true" />
+	<textField 	id="errorMsgBack"	path="main_mc.pane.error.txtback"  	init="true" _x="80" _y="1"	text="" 	textFormat="error" autoSize="true" />
+	
+	
+	<!-- TextFormat --------------------------------------------------------------------------------------------->
+	<!-- id			textFormat id																			   -->
+	<!-- prop		only valid properties for textFormat can be assign, example: color, align, size...		   -->
+	<!----------------------------------------------------------------------------------------------------------->
+
+	<textFormat id="title" 				color="{#color/title}" 		size="{#size/h1}" 	font="Arial"	align="center"	bold="true" 	/>
+	<textFormat id="titleDescription" 	color="{#color/titleDesc}" 	size="{#size/h2}"  	font="Arial" 	align="center"				/>
+	<textFormat id="listItem" 			color="0x666666" 			size="22"  			font="Arial" />
+	<textFormat id="error"	 			color="0xcc0000" 			size="20"  			font="Arial" />
+</style>
+
+<!-- PUBLIC STYLESHEET FOR CUSTOMIZATION -->
+
+
+

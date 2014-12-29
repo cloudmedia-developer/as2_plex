@@ -1,0 +1,131 @@
+{ "filter":[
+	{
+		/* VIDEO PLUGINS */
+		/* CANNOT GET LIST ITEM */
+		"com_plexapp_plugins_currenttv" : "all",
+		"com_plexapp_plugins_euronews" : "all",
+		"com_plexapp_plugins_foxnews" : "all",
+		"com_plexapp_plugins_gametrailers" : "all",
+		"com_plexapp_plugins_rtlnow" : "all",
+		"com_plexapp_plugins_schweizerfernsehen" : "all",
+		"com_plexapp_plugins_teleostschweiz" : "all",
+		"com_plexapp_plugins_tested" : "all",
+		"com_plexapp_plugins_tf1replay" : "all",
+		"com_plexapp_plugins_tv2video" : "all",
+		"com_plexapp_plugins_tv4play" : "all",
+		"com_plexapp_plugins_viasatplay" : "all",
+		"com_plexapp_plugins_cromokids" : "all",
+
+		/* NO ITEMS */
+		"com_plexapp_plugins_francetelevisions" : "all",
+		"com_plexapp_plugins_freecaster" : "all",
+		"com_plexapp_plugins_lestreamyantheriaultv" : "all",
+		"com_plexapp_plugins_makingof" : "all",
+		"com_plexapp_plugins_thenytimes" : "all",
+		"com_plexapp_plugins_theonion" : "all",
+		"com_plexapp_plugins_tvolucion" : "all",
+		"com_plexapp_plugins_tetesaclaques" : "all",
+		"com_plexapp_plugins_ubisofttv" : "all",
+		"com_plexapp_plugins_universalsports" : "all",
+		"com_plexapp_plugins_cricketwillowtv" : "all",
+		"com_plexapp_plugins_yahoomusic" : "all",
+
+		/* CANNOT CONNECT TO MEDIA */
+		"com_plexapp_plugins_escapist" : "all",
+		"com_plexapp_plugins_floridafishing" : "all",
+		"com_plexapp_plugins_marshillchurch" : "all",
+
+		/* CANNOT GET PLAY LINK */
+		"com_plexapp_plugins_sbsgemist" : "all",
+		"com_screencastsonline_plugin" : "all",
+		"com_plexapp_plugins_telem1" : "all",
+		"com_plexapp_plugins_toutv" : "all",
+
+		/* Need Login */
+		"com_plexapp_plugins_putio" : "all",
+		"com_plexapp_plugins_tvkaista" : "all",
+
+		/* Cannot Play */
+		"com_plexapp_plugins_adnstream" : "all",
+		"com_plexapp_plugins_amt" : "all",
+		"com_plexapp_plugins_breakcom" : "all",
+		"com_plexapp_plugins_charlierose" : "all",
+		"com_plexapp_plugins_gamernl" : "all",
+		"com_plexapp_plugins_koldcast" : "all",
+		"com_plexapp_plugins_msnbc" : "all",
+		"com_plexapp_plugins_traileraddict" : "all",
+
+		/* PLEX Protocol */
+
+	    "com_plexapp_plugins_artep7" : "all",
+	    "com_plexapp_plugins_homestarrunner" : "all",
+	    "com_plexapp_plugins_justintv" : "all",
+	    "com_plexapp_plugins_locotv" : "all",
+	    "com_plexapp_plugins_nasa" : "all",
+	    "com_plexapp_plugins_nederland24" : "all",
+	    "com_plexapp_plugins_stubru" : "all",
+	    "com_plexapp_plugins_telebasel" : "all",
+	    "com_plexapp_plugins_teleboy" : "all",
+	    "com_plexapp_plugins_vgtv" : "all",
+
+	    /* RTMP Playback */
+	    /*
+	    "com_plexapp_plugins_canalplus" : "all",
+	    "com_plexapp_plugins_cbcnewsnetwork" : "all",
+	    "com_plexapp_plugins_cbssports" : "all",
+	    "com_plexapp_plugins_hollywoodreporter" : "all",
+	    "com_plexapp_plugins_pbskids" : "all",
+	    */
+
+	    /* FLV Playbacks */
+	    "com_plexapp_plugins_college_humor" : "all",
+	    "com_plexapp_plugins_dumpert" : "all",
+	    "com_plexapp_plugins_funnyordie" : "all",
+	    "com_plexapp_plugins_proatcooking" : "all",
+	    
+	    /* Youtube */
+	    "com_plexapp_plugins_youtube" : "all but POP-888",
+	    "com_plexapp_plugins_avforums" : "all but POP-888",
+	    "com_plexapp_plugins_aljazeera" : "all but POP-888",
+	    "com_plexapp_plugins_baratsandberets" : "all but POP-888",
+	    "com_plexapp_plugins_boingboingtv" : "all but POP-888",
+	    "com_plexapp_plugins_devour" : "all but POP-888",
+	    "com_plexapp_plugins_earthtouch" : "all but POP-888",
+	    "com_plexapp_plugins_geekandsundry" : "all but POP-888",
+	    "com_plexapp_plugins_khanacademy" : "all but POP-888",
+	    "com_plexapp_plugins_onrefaitlemac" : "all but POP-888",
+	    "com_plexapp_plugins_pokernews" : "all but POP-888",
+	    "com_plexapp_plugins_nff" : "all but POP-888",
+	    "com_plexapp_plugins_nerdist" : "all but POP-888",
+	    "com_plexapp_plugins_nerdist" : "all but POP-888"
+	},
+	{
+		/* AUDIO PLUGINS */
+		/* CANNOT GET LIST ITEM */
+	 	"com_plexapp_plugins_bbcpodcasts" : "all",
+	 	"com_plexapp_plugins_nasa" : "all",
+
+		/* CANNOT CONNECT TO MEDIA */
+		"com_plexapp_plugins_htguys" : "all",
+
+		/* Need Login */
+		"com_plexapp_plugins_putio" : "all"
+	},
+	{
+	    /* PHOTO PLUGINS */
+		/* CANNOT GET LIST ITEM */
+	 	"com_plexapp_plugins_annakimphotography" : "all",
+	 	"com_plexapp_plugins_the-big-picture" : "all",
+	 	"com_shoq_photo" : "all",
+
+		/* NO ITEMS */
+		"com_raebarnes_plex" : "all",
+
+		/* Need Login */
+		"com_plexapp_plugins_putio" : "all",
+
+		/* LONG LOADING TIME */
+		"com_plexapp_plugins_tripleman" : "all"
+	}
+]
+}

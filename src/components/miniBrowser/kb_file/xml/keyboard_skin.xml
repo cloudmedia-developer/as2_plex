@@ -1,0 +1,24 @@
+<rss>
+	<skin>
+		<general base="kb_file/images">
+			<item id="prev_input" 		url="/icon/prev_input.png"/>
+			<item id="next_input"		url="/icon/next_input.png"/>
+			<item id="left_end"			url="/icon/left_end.png"/>
+			<item id="left"  			url="/icon/left.png"/>
+            <item id="right"      		url="/icon/right.png"/>
+           	<item id="right_end"    	url="/icon/right_end.png"/>
+			<item id="delete_icon" 		url="/icon/delete.png"/>
+			<item id="delete_all"  		url="/icon/delete_all.png"/>
+            <item id="shift" 			url="/icon/shift.png"/>
+            <item id="screenkeyboard"  	url="/icon/screenkeyboard.png"/>
+			<item id="space"  			url="/icon/space.png"/>
+			<item id="done"  			url="/icon/done.png"/>
+			<item id="abc"  			url="/icon/abc.png"/>
+			<item id="key_hl"  			url="/hlBar/key_hl.png"/>
+			<item id="input_type"  		url="/pane/inputType.png"/>
+			<item id="base"  			url="/pane/base.png"/>
+			<item id="suggestion_base" 	url="/pane/suggestionWord_base.png"/>
+			<item id="dark" 			url="/pane/dark.png"/>
+		</general>
+	</skin>
+</rss>

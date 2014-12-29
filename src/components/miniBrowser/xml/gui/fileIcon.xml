@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<style>
+	<bitmap 	id="workgroupIsHL"  			path="images/fileIcon/workgroupHL.png"   			init="true"		cache="true"		/>
+	<bitmap 	id="workgroupNoHL"  			path="images/fileIcon/workgroup.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="computerIsHL"  				path="images/fileIcon/pcHL.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="computerNoHL"  				path="images/fileIcon/pc.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="nfsIsHL"  					path="images/fileIcon/nfsHL.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="nfsNoHL"  					path="images/fileIcon/nfs.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="networkIsHL"  				path="images/fileIcon/networkHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="networkNoHL"  				path="images/fileIcon/network.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="harddiskIsHL"  				path="images/fileIcon/harddiskHL.png"   			init="true"		cache="true"		/>
+	<bitmap 	id="harddiskNoHL"  				path="images/fileIcon/harddisk.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="usbIsHL"  					path="images/fileIcon/usbHL.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="usbNoHL"  					path="images/fileIcon/usb.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="folderIsHL"  				path="images/fileIcon/folderHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="folderNoHL"  				path="images/fileIcon/folder.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="musicIsHL"  				path="images/fileIcon/musicHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="musicNoHL"  				path="images/fileIcon/music.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="videoIsHL"  				path="images/fileIcon/movieHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="videoNoHL"  				path="images/fileIcon/movie.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="photoIsHL"  				path="images/fileIcon/photoHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="photoNoHL"  				path="images/fileIcon/photo.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="otherIsHL"  				path="images/fileIcon/fileHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="otherNoHL"  				path="images/fileIcon/file.png"   					init="true"		cache="true"		/>
+	<bitmap 	id="phfIsHL"  					path="images/fileIcon/fileHL.png"   				init="true"		cache="true"		/>
+	<bitmap 	id="phfNoHL"  					path="images/fileIcon/file.png"   					init="true"		cache="true"		/>
+</style>

@@ -1,0 +1,29 @@
+{
+  "indi": {
+    "back": "Wróc",
+    "mark": "Zaznacz",
+    "unmark": "Odznacz",
+    "cancel": "Anuluj",
+    "done": "Wykonano"
+  },
+  "title": {
+    "copyTo": "Skopiuj do",
+    "moveTo": "Przesuń do",
+    "network": "Przeglądarka sieci",
+	"browse": "Browse File"
+  },
+  "error": {
+    "error905": "Zasób nie istnieje",
+    "error907": "Serwer jest zajęty, nie można uzyskać dostępu",
+    "error908": "Nieprawidłowe logowanie",
+    "error909": "Unable to access the shared folder, please check your NAS or PC setting",
+    "errorCommon": "Sub-folder does not exist.",
+    "press": "Użyj",
+    "empty": "Sub-folder does not exist.",
+    "toMark": "to mark root folder as destination."
+  },
+  "login": {
+    "username": "Użytkownik",
+    "password": "Hasło"
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<style>
+	<bitmap 	id="loginPane"  				path="images/login/pane_medium.png"   				init="true"			cache="true"/>
+	<bitmap 	id="loginInputBox"  			path="images/login/inputBox.png"   					init="false"		cache="false"/>
+	<bitmap 	id="loginKeyboard"  			path="images/login/btn_keyboard.png"   				init="false"		cache="false"/>
+	<bitmap 	id="loginInputBoxHL"  			path="images/login/inputBox_hl.png"   				init="false"		cache="true"/>
+	<bitmap 	id="loginKeyboardHL"  			path="images/login/btn_keyboard_hl.png"   			init="false"		cache="true"/>
+	<bitmap 	id="loginBtn"  					path="images/login/btn.png"   						init="false"		cache="true"/>
+	<bitmap 	id="loginBtnHL"  				path="images/login/btn_hl.png"   					init="false"		cache="true"/>
+	<bitmap 	id="iconNetworkFolder"  		path="images/login/icon_network_folder_big.png"   	init="false"		cache="true"/>
+	
+	<movieClip  id="loginBlack"					path="loginBlack" 																		init="true" 	/>
+	<movieClip  id="login" 						path="login" 						_visible="false"									init="true" 	/>
+	<movieClip  id="loginPane" 					path="login.bg" 					bitmap="loginPane"									init="true" 	/>
+	<movieClip  id="loginInput" 				path="login.input" 												_x="57"		_y="305" 	init="true" 	/>
+	<movieClip  id="loginUserInput" 			path="login.input.user" 																init="true" 	/>
+	<movieClip  id="loginUserInputBox" 			path="login.input.user.input" 		bitmap="loginInputBox"							 	init="true" 	/>
+	<movieClip  id="loginUserKeyboard" 			path="login.input.user.key" 		bitmap="loginKeyboard"		_x="378" 				init="true" 	/>
+	<movieClip  id="loginUserInputBoxHL" 		path="login.input.user.inputHL" 								_x="2"		_y="3" 		init="true" 	/>
+	<movieClip  id="loginUserKeyboardHL" 		path="login.input.user.keyHL" 									_x="378"				init="true" 	/>
+	
+	<movieClip  id="loginPasswordInput" 		path="login.input.password" 													_y="90"		init="true" 	/>
+	<movieClip  id="loginPasswordInputBox" 		path="login.input.password.input" 		bitmap="loginInputBox"					 			init="true" 	/>
+	<movieClip  id="loginPasswordKeyboard" 		path="login.input.password.key" 		bitmap="loginKeyboard"		_x="378"	 			init="true" 	/>
+	<movieClip  id="loginPasswordInputBoxHL" 	path="login.input.password.inputHL" 								_x="2"		_y="3"		init="true" 	/>
+	<movieClip  id="loginPasswordKeyboardHL" 	path="login.input.password.keyHL" 									_x="378" 				init="true" 	/>
+	
+	<movieClip  id="loginDone" 					path="login.btn.done" 				bitmap="loginBtn"			_x="48" 	_y="460"	init="true" 	/>
+	<movieClip  id="loginCancel" 				path="login.btn.cancel" 			bitmap="loginBtn"			_x="270" 	_y="460"	init="true" 	/>
+	<movieClip  id="loginDoneHL" 				path="login.btn.doneHL" 										_x="48" 	_y="460"	init="true" 	/>
+	<movieClip  id="loginCancelHL" 				path="login.btn.cancelHL" 										_x="270" 	_y="460"	init="true" 	/>
+	
+	<movieClip  id="loginNetworkIcon" 			path="login.icon" 					bitmap="iconNetworkFolder"	_x="200" 	_y="50"	init="true" 	/>
+	<movieClip  id="loginKeyboard" 				path="loginKeyboard" 				init="true" 	/>
+	
+	<textField  id="loginUserText" 				path="login.input.usertxt" 			text="Username"				autoSize="true" 	_y="-35"	init="true" textFormat="loginTxt"	/>
+	<textField  id="loginPasswordText" 			path="login.input.passwordtxt" 		text="Password"				autoSize="true"	 	_y="55"		init="true" textFormat="loginTxt"	/>
+	<textField  id="loginDoneTxt" 				path="login.btn.done_txt" 			text="Done"					_width="190" _height="35" _x="65" 	_y="476" 	init="true" textFormat="loginBtn"	/>
+	<textField  id="loginCancelTxt" 			path="login.btn.cancel_txt" 		text="Cancel"				_width="190" _height="35" _x="287" 	_y="476" 	init="true" textFormat="loginBtn"	/>
+	<textField  id="loginComputer" 				path="login.title" 					text=""						_width="445" _height="35" _x="50" 	_y="206" 	init="true" textFormat="loginBtn"	/>
+	
+	<textFormat id="loginTxt" 	color="0xffffff"		size="22" font="Arial" 	/>
+	<textFormat id="loginBtn" 	color="0xffffff"		size="22" font="Arial" align="center"	/>
+</style>

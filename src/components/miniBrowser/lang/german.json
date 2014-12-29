@@ -1,0 +1,29 @@
+{
+  "indi" : {
+    "back" : "Zurück",
+    "mark" : "Markieren",
+    "unmark" : "Markierung aufheben",
+    "cancel" : "Abbrechen",
+    "done" : "Fertig"
+  },
+  "title" : {
+    "copyTo" : "Kopieren nach",
+    "moveTo" : "Verschieben nach",
+    "network" : "Netzwerkumgebung",
+	"browse": "Browse File"
+  },
+  "error" : {
+    "error905" : "Freigabe existiert nicht mehr",
+    "error907" : "Server ist beschäftigt und nicht erreichbar",
+    "error908" : "Anmeldung ungültig",
+    "error909": "Kein Zugriff auf die Freigabe möglich, bitte überprüfen Sie Ihre NAS oder PC Einstellungen",
+    "errorCommon": "Unterordner existiert nicht.",
+    "press" : "Drücken",
+    "empty" : "Unterordner existiert nicht.",
+    "toMark" : "um den Hauptordner als Ziel zu markieren."
+  },
+  "login" : {
+    "username" : "Benutzername",
+    "password" : "Passwort"
+  }
+}

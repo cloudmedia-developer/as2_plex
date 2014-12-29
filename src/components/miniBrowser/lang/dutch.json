@@ -1,0 +1,29 @@
+﻿{
+  "indi" : {
+    "back" : "Terug",
+    "mark" : "Markeer",
+    "unmark" : "Demarkeer",
+    "cancel" : "Cancel",
+    "done" : "Klaar"
+  },
+  "title" : {
+    "copyTo" : "Kopieer naar",
+    "moveTo" : "Verplaats naar",
+    "network" : "Netwerk browser",
+	"browse": "Browse File"
+  },
+  "error" : {
+    "error905" : "Share no longer exist",
+    "error907" : "Server is busy, unable to access",
+    "error908" : "Invalid login",
+    "error909": "Unable to access the shared folder, please check your NAS or PC setting",
+    "errorCommon": "Sub-folder does not exist.",
+    "press" : "Press",
+    "empty" : "Sub-folder does not exist.",
+    "toMark" : "to mark root folder as destination."
+  },
+  "login" : {
+    "username" : "Gebruikersnaam",
+    "password" : "Wachtwoord"
+  }
+}

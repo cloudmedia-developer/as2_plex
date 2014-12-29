@@ -1,0 +1,57 @@
+Version 1.0.9
+===================
+- Preference can be saved using "Back" key.
+- Configuration file can be specified by choosing the folder contains it. *1
+- Added a simple share testing module.
+- Updated French Language.
+- Bug Fix: Movie and TV Show display option is not saved.
+
+NOTES:
+*1  Popbox3D device can only select folder from Network Browser.
+
+Version 1.0.8
+===================
+- Episode listing press "Enter" will start single episode playback
+- Episode listing press "Play" will start playlist *1 *2
+- Updated German Language wordings
+
+NOTES:
+*1	Playlist playback will start from the current episode highlighted (e.g: highlight on episode 5 and press "Play" will play episode 5, 6, 7, 8....)
+*2	Resume using playlist playback will freeze Popbox 3D, and is not working on A-400 (it will play from beginning).
+
+Version 1.0.7
+===================
+- Added Banner View for TV Show page.
+- Added Info Popup for On Deck Video.
+- Added language for Chinese Simplified, Chinese Traditional, Japanese, German, and Dutch. *1
+- Episodes playback now play in playlist style.
+
+NOTES:
+*1      The language in the app will follow the language in Device Setting.
+
+
+Version 1.0.6
+===================
+- Allow to mark "Watched" / "Unwatched" on deck.
+- Added a popup to switch layout in Movie / TV Show page.
+- Added Info Popup for Movie / TV Show page.
+- Added a title under grid in Movie / TV Show page.
+- Added Wall View with title layout.
+- Reduced interval to report playback progress to once in 3 seconds.
+
+
+Version 1.0.5
+===================
+- Content of config.xml is now saved in Shared Object. (*1)
+- Movies and TV Series page now support alphabert jumping using number keys. (*2) (*3)
+- App will try to mount NFS server before playing NFS play path. (*4)
+- Bug Fix: Empty "username" and "password" in login section of config.xml will not take any action.
+- Bug Fix: Photo section with SMB path will show blank screens during slideshow.
+- Bug Fix: Wall views missing title at top-center portion.
+
+
+NOTES:
+*1      Updates CloudMedia/config.xml when any changes applies and launch Plex app again. To clear up all config, please put a blank xml.
+*2      ONLY applies to "All" category of the section. Other section such as "Year", "Unwatched" will not have this feature.
+*3      The indices comes from PMS. Sometimes PMS scanning will produce wrong indices and hence causing the feature to jump to wrong position.
+*4      Experimental feature, might not work for some setup.

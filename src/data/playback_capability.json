@@ -1,0 +1,16 @@
+{
+	"POP-888":
+	[
+	    {
+	        "date":"default",
+	        "capability_enabled":"|mp4|"
+		}
+	],
+	"default":
+	[
+	    {
+	        "date":"default",
+	        "capability_disabled":"|flv|rm|rmvb|rmb|"
+		}
+	]
+}

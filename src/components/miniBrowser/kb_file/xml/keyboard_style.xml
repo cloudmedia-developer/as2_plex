@@ -1,0 +1,16 @@
+<rss>
+	<style>
+		<general>
+			<item id="label" font="Arial" color="0x999999" size="35"/>
+			<item id="input_text" font="Arial" bold="true" color="0x000000" size="30"/>
+			<item id="normal_key" font="Arial" bold="true" color="0xFFFFFF" size="29" align="center" />
+			<item id="http_key" size="19"/>
+			<item id="www_key" size="19"/>
+			<item id="com_key" size="19"/>
+			<item id="num_key" size="22"/>
+			<item id="char_key" size="18"/>
+			<item id="key_hl" color="0xCC0000"/>
+			<item id="separator" color="0xCC0000"/>
+		</general>
+	</style>
+</rss>

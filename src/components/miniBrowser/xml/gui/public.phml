@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<style>
+	<!--<imageFolderPath>USB_DRIVE_B-1/theme/images</imageFolderPath>-->
+	<color>
+		<main>
+			<title>0xFFFFFF</title>
+			<descriptionColor>0x555555</descriptionColor>
+		</main>
+	</color>
+	<main>
+		<x>99</x>
+		<y>99</y>
+	</main>
+</style>

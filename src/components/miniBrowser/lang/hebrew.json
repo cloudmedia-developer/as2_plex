@@ -1,0 +1,29 @@
+{
+  "indi" : {
+    "back" : "אחורה",
+    "mark" : "סמן",
+    "unmark" : "הסר סימון",
+    "cancel" : "בטל",
+    "done" : "סיים"
+  },
+  "title" : {
+    "copyTo" : "העתק אל",
+    "moveTo" : "העבר אל",
+    "network" : "סייר הרשת",
+	"browse": "Browse File"
+  },
+  "error" : {
+    "error905" : "השיתוף לא קיים יותר",
+    "error907" : "השרת עסוק, לא ניתן להתחבר",
+    "error908" : "התחברות לא חוקית",
+    "error909": "Unable to access the shared folder, please check your NAS or PC setting",
+    "errorCommon": "Sub-folder does not exist.",
+    "press" : "Press",
+    "empty" : "Sub-folder does not exist.",
+    "toMark" : "to mark root folder as destination."
+  },
+  "login" : {
+    "username" : "שם משתמש",
+    "password" : "סיסמה"
+  }
+}

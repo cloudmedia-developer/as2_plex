@@ -1,0 +1,29 @@
+{
+  "indi" : {
+    "back" : "tillbaka",
+    "mark" : "Markera",
+    "unmark" : "Avmarkera",
+    "cancel" : "Avbryt",
+    "done" : "Klar"
+  },
+  "title" : {
+    "copyTo" : "Kopiera till",
+    "moveTo" : "Flytta till",
+    "network" : "Nätverksutforskare",
+	"browse": "Browse File"
+  },
+  "error" : {
+    "error905" : "Mappen existerar inte längre",
+    "error907" : "Servern är upptagen, kan inte komma åt den",
+    "error908" : "Felaktig inloggning",
+    "error909": "Unable to access the shared folder, please check your NAS or PC setting",
+    "errorCommon": "Sub-folder does not exist.",
+    "press" : "Press",
+    "empty" : "Sub-folder does not exist.",
+    "toMark" : "to mark root folder as destination."
+  },
+  "login" : {
+    "username" : "Användarnamn",
+    "password" : "Lösenord"
+  }
+}

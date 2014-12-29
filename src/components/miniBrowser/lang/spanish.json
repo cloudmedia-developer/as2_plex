@@ -1,0 +1,29 @@
+{
+  "indi" : {
+    "back" : "Volver",
+    "mark" : "Marcar",
+    "unmark" : "Desmarcar",
+    "cancel" : "Cancelar",
+    "done" : "Hecho"
+  },
+  "title" : {
+    "copyTo" : "Copiar a",
+    "moveTo" : "Mover a",
+    "network" : "Navegar por la red",
+	"browse": "Browse File"
+  },
+  "error" : {
+    "error905" : "El recurso compartido ya no existe",
+    "error907" : "El servidor está ocupado, imposible acceder",
+    "error908" : "Nombre de usuario incorrecto",
+    "error909": "Unable to access the shared folder, please check your NAS or PC setting",
+    "errorCommon": "Sub-folder does not exist.",
+    "press" : "Press",
+    "empty" : "Sub-folder does not exist.",
+    "toMark" : "to mark root folder as destination."
+  },
+  "login" : {
+    "username" : "Nombre de usuario",
+    "password" : "Contraseña"
+  }
+}

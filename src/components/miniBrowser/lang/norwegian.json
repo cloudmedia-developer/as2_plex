@@ -1,0 +1,29 @@
+{
+  "indi" : {
+    "back" : "Tilbake",
+    "mark" : "Marker",
+    "unmark" : "Fjern merking",
+    "cancel" : "Avbryt",
+    "done" : "Ferdig"
+  },
+  "title" : {
+    "copyTo" : "Kopier til",
+    "moveTo" : "Flytt til",
+    "network" : "Nettverksutforsker",
+	"browse": "Browse File"
+  },
+  "error" : {
+    "error905" : "Deling eksisterer ikke lenger",
+    "error907" : "Serveren er opptatt, ingen tilgang",
+    "error908" : "Ugjyldig pålogging",
+    "error909": "Unable to access the shared folder, please check your NAS or PC setting",
+    "errorCommon": "Sub-folder does not exist.",
+    "press" : "Press",
+    "empty" : "Sub-folder does not exist.",
+    "toMark" : "to mark root folder as destination."
+  },
+  "login" : {
+    "username" : "Brukernavn",
+    "password" : "Passord"
+  }
+}
